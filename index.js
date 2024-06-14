@@ -15,6 +15,4 @@ let months = [
   "Diciembre",
 ];
 
-months[1];
-
 console.log(months[1]);
