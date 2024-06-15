@@ -41,6 +41,7 @@ console.log(rutina);
 
 //BUCLES se hacen mientras sean true
 
+//for es con un numero definido de repeticiones
 const sunombre = ["1", "2", "3", "4", "5"];
 
 for (let i = 0; i < sunombre.length; i++) console.log(sunombre[i]);
@@ -49,3 +50,10 @@ for (let i = 0; i < sunombre.length; i++) console.log(sunombre[i]);
 // solo da cada dos
 
 for (let i = 0; i < sunombre.length; i += 2) console.log(sunombre[i]);
+
+//usando while que se ejecuta mientras sea verdadero
+
+i = 0;
+while (i < sunombre.length) {
+  console.log(sunombre[i], i++);
+}
