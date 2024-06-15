@@ -20,4 +20,12 @@ console.log(months[1]);
 // arrays length empieza desde el 0
 console.log(months.length);
 
-console.log(months.length[4]);
+//ejercicio
+
+let rutina = [
+  "Levantarse",
+  "Cepillar dientes",
+  "mirar el telefono",
+  "tomar un baño",
+];
+console.log(rutina);
