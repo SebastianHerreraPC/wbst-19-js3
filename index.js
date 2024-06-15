@@ -16,3 +16,8 @@ let months = [
 ];
 
 console.log(months[1]);
+
+// arrays length empieza desde el 0
+console.log(months.length);
+
+console.log(months.length[4]);
