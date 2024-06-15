@@ -38,3 +38,11 @@ console.log(rutina[rutina.length - 1]);
 rutina[2] = "Ejercicio";
 rutina[rutina.length - 1] = "Lavar platos";
 console.log(rutina);
+
+//BUCLES se hacen mientras sean true
+
+const sunombre = ["1", "2", "3", "4", "5"];
+
+for (let i = 0; i < sunombre.length; i++) console.log(sunombre[i]);
+
+// primero le doy el valor a i que funciona como indice, luego la condicion si i es menor que la longitud de la variable, entonces aumenta uno a el bucle y repite
