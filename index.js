@@ -46,3 +46,6 @@ const sunombre = ["1", "2", "3", "4", "5"];
 for (let i = 0; i < sunombre.length; i++) console.log(sunombre[i]);
 
 // primero le doy el valor a i que funciona como indice, luego la condicion si i es menor que la longitud de la variable, entonces aumenta uno a el bucle y repite
+// solo da cada dos
+
+for (let i = 0; i < sunombre.length; i += 2) console.log(sunombre[i]);
