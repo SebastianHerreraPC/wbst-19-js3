@@ -29,3 +29,12 @@ let rutina = [
   "tomar un baño",
 ];
 console.log(rutina);
+
+//mostrar el primer elemento y ultimo
+console.log(rutina[0]);
+console.log(rutina[rutina.length - 1]);
+
+//sustituir elementos y agregar nuevos
+rutina[2] = "Ejercicio";
+rutina[rutina.length - 1] = "Lavar platos";
+console.log(rutina);
