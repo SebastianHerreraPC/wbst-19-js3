@@ -57,3 +57,17 @@ i = 0;
 while (i < sunombre.length) {
   console.log(sunombre[i], i++);
 }
+
+//funciones y llamarlas
+
+function decirhola(tunombre) {
+  console.log("Hola " + tunombre + " ¿Como estas? ");
+}
+decirhola("Sebastian");
+
+function sumar(x, y) {
+  return x + y;
+}
+
+let resultado = sumar(10, 10);
+console.log(resultado);
